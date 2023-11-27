@@ -61,10 +61,10 @@ turtle.onkey(player.decelerate, 'Down')
 turtle.onkey(player.decelerate, 's')
 turtle.listen()
 
+#Main game loop
 def main():
     while True:
         player.move()
-
 
 if __name__ == '__main__':
     main()
