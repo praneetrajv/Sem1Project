@@ -28,7 +28,7 @@ class Actors(turtle.Turtle):
 class Player(Actors):
     def __init__(self, ashape, color, startX, startY):
         Actors.__init__(self, ashape, color, startX, startY)
-        self.speed = 0 #Player start speed.Can be increased/decreased using accelerate/decelerate functions
+        self.speed = 0 #Player start speed. Can be increased/decreased using accelerate/decelerate functions
         self.lives = 3 #Default player lives
     
     #Define player movement functions
